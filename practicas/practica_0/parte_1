@@ -1,0 +1,20 @@
+--- Ejericico 1 ---
+whomi: Devuleve el nombre de usuario
+uname -a: Devuelve datos sobre el sistema operativo
+id: Devuleve todos los grupos del sistema
+ps: Devuelve los procesos que se estan realizando por el usuario
+ps -e: Devuelve todos los procesos que se estan realziando por todo el sistema
+top: Devuelve los procesos ordenados
+top -n 10: Devuelve solo 10 procesos ordenados
+
+--- Ejercicio 2 ---
+pwd: Devuelve el path del directorio
+ls: Devuelve los archivos del directroio
+ls -l: Devuelve los archivos pero con los perimsos, y otros datos
+ls -a: Devuelve tambien los archivos que empiezan con .
+ls -d: Devuelve el directorio donde estamos
+ls -h: Devuelve los archivos en una version legible
+ls -S: Devuelve ordenado por tam de archivo
+ls -r: Devuelve en orden inverso
+
+
