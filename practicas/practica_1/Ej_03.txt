@@ -1,0 +1,9 @@
+-- Ejercicio 3 --
+
+La diferencia entre una syscall y una llamada a funcion de biblioteca es que estas ultimas son
+wrappers que permiten interactuar con el sistema con mayor portabilidad y sencillez, ya que sin estos
+los programadores deberian programar cada syscall que hacen para cada arquitectura diferente. Ademas,
+la llamada a una funcion de biblioteca hace que sea mas optimizado y tarde menos ya que cuando se hace
+una syscall hay un cambio de privilegio y entre otras cosas que hacen que tome mucho más tiempo hacer 
+una syscall.
+

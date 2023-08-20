@@ -1,0 +1,47 @@
+-- Ejercicio 2 --
+
+struct PCB {
+    int STAT;       // valores posibles KE_RUNNING, KE_READY, KE_BLOCKED, KE_NEW
+    int P_ID;       // process ID
+    int PC;         // valor del PC del proceso al ser desalojado
+    int R0;         // valor del registro R0 al ser desalojado
+    ...
+    int R15;        // valor del registro R15 al ser desalojado
+    int CPU_TIME    // tiempo de ejecución del proceso
+}
+
+·=·;                                // asignación entre registros y memoria
+int ke_current_user_time();         // devuelve el valor del cronómetro
+void ke_reset_current_user_time();  // resetea el cronómetro
+void ret();                         // desapila el tope de la pila y reemplaza el PC
+void set_current_process(int pid)   // asigna al proceso con el pid como el siguiente a ejecutarse
+
+void Ke_context_switch(PCB* pcb_0, PCB* pcb_1) {
+
+    // Primero desalojar el proceso
+    pcb_0.STAT = KE_READY;
+
+    // Guardar los registros y el PC
+    pcb_0.R0 ·=· R0;
+    ...
+    pcb_0.R15 ·=· R15;
+    pcb_0.PC ·=· IR;
+
+    // actualizar el tiempo de ejecución
+    pcb_0.CPU_TIME += ke_current_user_time();
+
+    // Colocar los nuevos datos del otro proceso
+    pcb_1.STAT = KE_RUNNING;
+
+    R0 ·=· pcb_1.R0;
+    ...
+    R15 ·=· pcb_1.R15;
+
+    IR ·=· pcb_1.PC;
+
+    ke_reset_current_user_time();
+
+    set_current_process(pcb_1.P_ID);
+
+    ret();
+}
