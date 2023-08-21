@@ -1,0 +1,7 @@
+-- Ejercicio 4 --
+NEW -> READY (proceso)
+READY -> RUNNING (scheduler)
+RUNNING -> READY (scheduler)
+RUNNING -> TERMINATED (proceso)
+RUNNING -> BLOCKED (interrupcion / excepcion)
+BLOCKED -> READY (?)
