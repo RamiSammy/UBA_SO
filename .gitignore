@@ -1,0 +1,4 @@
+Ej_*
+!*.txt
+!*.c
+.vscode
