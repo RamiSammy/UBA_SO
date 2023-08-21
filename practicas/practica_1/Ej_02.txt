@@ -19,25 +19,25 @@ void set_current_process(int pid)   // asigna al proceso con el pid como el sigu
 void Ke_context_switch(PCB* pcb_0, PCB* pcb_1) {
 
     // Primero desalojar el proceso
-    pcb_0.STAT = KE_READY;
+    pcb_0->STAT = KE_READY;
 
     // Guardar los registros y el PC
-    pcb_0.R0 ·=· R0;
+    pcb_0->R0 ·=· R0;
     ...
-    pcb_0.R15 ·=· R15;
-    pcb_0.PC ·=· IR;
+    pcb_0->R15 ·=· R15;
+    pcb_0->PC ·=· IR;
 
     // actualizar el tiempo de ejecución
-    pcb_0.CPU_TIME += ke_current_user_time();
+    pcb_0->CPU_TIME += ke_current_user_time();
 
     // Colocar los nuevos datos del otro proceso
-    pcb_1.STAT = KE_RUNNING;
+    pcb_1->STAT = KE_RUNNING;
 
-    R0 ·=· pcb_1.R0;
+    R0 ·=· pcb_1->R0;
     ...
-    R15 ·=· pcb_1.R15;
+    R15 ·=· pcb_1->R15;
 
-    IR ·=· pcb_1.PC;
+    IR ·=· pcb_1->PC;
 
     ke_reset_current_user_time();
 
