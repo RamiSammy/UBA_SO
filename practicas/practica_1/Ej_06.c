@@ -9,7 +9,7 @@ void system_(const char *arg) {
 
     if(pid == -1) exit(EXIT_FAILURE);
     if(pid == 0) {
-        execv(arg, NULL);
+        execv(sizeof(arg), arg);
     } else {
         waitpid(pid, &status, 0);
     }
