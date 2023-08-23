@@ -1,0 +1,4 @@
+- fork 17309
+- write "sup"
+- kill 17309
+- write "ya va"
