@@ -13,3 +13,8 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
         - [Ejericico 5](practicas/practica_1/Ej_05.c)
         - [Ejericico 6](practicas/practica_1/Ej_06.c)
         - [Ejericico 8](practicas/practica_1/Ej_08.txt)
+
+- Talleres
+    - [Taller 1](talleres/taller%201/enunciado/enunciado.pdf)
+        - [Ejercicios](talleres/taller%201/src/)
+    
