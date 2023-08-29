@@ -16,6 +16,7 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
         - [Ejercicio 11](practicas/practica_1/Ej_11.c)
         - [Ejercicio 12](practicas/practica_1/Ej_12.txt)
         - [Ejercicio 13](practicas/practica_1/Ej_13.txt)
+        - [Ejercicio 14](practicas/practica_1/Ej_14.txt)
 
 - Talleres
     - [Taller 1](talleres/taller%201/enunciado/enunciado.pdf)

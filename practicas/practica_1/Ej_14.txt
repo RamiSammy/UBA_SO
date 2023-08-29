@@ -1,0 +1,42 @@
+--- Ejercicio 14 ---
+a)
+
+int result;
+
+void proceso_izquierda(pid_t pid_derecha) {
+    result = 0;
+    while (true) {
+        // En caso de que la cola este llena va a seguir porbando
+        // hasta que se libere
+
+        bool status_msg = send(pid_derecha, &result);
+        if (status_msg) {
+            result = cómputo_muy_difícil_1();
+        }
+    }
+}
+
+void proceso_derecha(pid_t pid_izquierda) {
+    while(true) {
+        result = cómputo_muy_difícil_2();
+        int left_result;
+        bool status_msg = receive(pid_izquierda, &left_result);
+        // Si la cola esta vacia da error
+        if(!status_msg) exit(EXIT_FAILURE);
+        printf("%s %s", left_result, result);
+    }
+}
+
+int main() {
+    pid_t pid_derecha = get_current_pid();
+    pid_t pid_izquierda = fork();
+    if(cpid == -1) exit(EXIT_FAILURE);
+    else if(cpid == 0) proceso_izquierda();
+    else proceso_derecha();
+    exit(0);
+}
+
+b) La capacidad de la cola deberia ser lo suficientemente larga
+como para que se hagan ambos computos. Es decir, no se puede llenar 
+antes de que el cómputo_muy_difícil_2() termine. SI no obtenemos
+un stall.
