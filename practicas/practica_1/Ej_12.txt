@@ -1,13 +1,30 @@
---- Ejercicio 12 ---
+--- Ejercicio 11 ---
+a) No se podria ya que en nigun momento estamos usando el 
+fork para crear 2 procesos y que se ejecuten en simultaneo
 
-a) En caso de que ninguno de los 2 modifique la misma
-parte de la imagen se podria cargar en memoria.
+int result;
 
-b) Se puede hacer por mensajes, una vez que cortarBordes finaliza,
-este avisa por mensaje y eliminarOjosRojos puede ejecutarse. Tambien
-se puede hacer por memoria compartida y de alguna manera, con una variable 
-global o encadenando los procesos ejercutar primero cortarBordes y luego
-eliminarOjosRojos.
+void proceso_izquierda(pid_t pid_derecha) {
+    result = 0;
+    while (true) {
+        bsend(pid_derecha, result);
+        result = cómputo_muy_difícil_1();
+    }
+}
 
-c) En este caso como los procesos se encuentran en computadoras 
-diferentes, se deberia hacer si o si por mensaje.
+void proceso_derecha(pid_t pid_izquierda) {
+    while(true) {
+        result = cómputo_muy_difícil_2();
+        int left_result = breceive(pid_izquierda);
+        printf("%s %s", left_result, result);
+    }
+}
+
+int main() {
+    pid_t pid_derecha = get_current_pid();
+    pid_t pid_izquierda = fork();
+    if(cpid == -1) exit(EXIT_FAILURE);
+    else if(cpid == 0) proceso_izquierda();
+    else proceso_derecha();
+    exit(0);
+}
