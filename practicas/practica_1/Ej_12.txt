@@ -1,0 +1,13 @@
+--- Ejercicio 12 ---
+
+a) En caso de que ninguno de los 2 modifique la misma
+parte de la imagen se podria cargar en memoria.
+
+b) Se puede hacer por mensajes, una vez que cortarBordes finaliza,
+este avisa por mensaje y eliminarOjosRojos puede ejecutarse. Tambien
+se puede hacer por memoria compartida y de alguna manera, con una variable 
+global o encadenando los procesos ejercutar primero cortarBordes y luego
+eliminarOjosRojos.
+
+c) En este caso como los procesos se encuentran en computadoras 
+diferentes, se deberia hacer si o si por mensaje.
