@@ -6,13 +6,14 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
 ## Índice
 - Practicas:
     - [Practica 1](practicas/practica_1/practica1.pdf)
-        - [Ejericico 1](practicas/practica_1/Ej_01.txt)
-        - [Ejericico 2](practicas/practica_1/Ej_02.txt)
-        - [Ejericico 3](practicas/practica_1/Ej_03.txt)
-        - [Ejericico 4](practicas/practica_1/Ej_04.txt)
-        - [Ejericico 5](practicas/practica_1/Ej_05.c)
-        - [Ejericico 6](practicas/practica_1/Ej_06.c)
-        - [Ejericico 8](practicas/practica_1/Ej_08.txt)
+        - [Ejercicio 1](practicas/practica_1/Ej_01.txt)
+        - [Ejercicio 2](practicas/practica_1/Ej_02.txt)
+        - [Ejercicio 3](practicas/practica_1/Ej_03.txt)
+        - [Ejercicio 4](practicas/practica_1/Ej_04.txt)
+        - [Ejercicio 5](practicas/practica_1/Ej_05.c)
+        - [Ejercicio 6](practicas/practica_1/Ej_06.c)
+        - [Ejercicio 8](practicas/practica_1/Ej_08.txt)
+        - [Ejercicio 10](practicas/practica_1/Ej_10.c)
 
 - Talleres
     - [Taller 1](talleres/taller%201/enunciado/enunciado.pdf)
