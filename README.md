@@ -19,6 +19,8 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
         - [Ejercicio 14](practicas/practica_1/Ej_14.txt)
         - [Ejercicio 15](practicas/practica_1/Ej_15.txt)
         - [Ejercicio 16](practicas/practica_1/Ej_16.txt)
+        - [Ejercicio 17](talleres/taller%202/pipes/Ejercicio1/mini-shell)
+        
 
 
 - Talleres
