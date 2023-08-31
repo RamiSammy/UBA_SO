@@ -1,0 +1,15 @@
+--- Ejercicio 16 ---
+
+- No bloqueante -
+Cuando se quiere que los 2 procesos no dependadan del otro y puedan
+realziar tareas auqnue no puedan comunicarse en ese momento.
+Por ejemplo, si tenemos 3 procesos, donde procesos B y C depende del A,
+pero B y C no depende entre ellos aunque si se envian informacion util,
+no queremos que B y C se esperen entre si.
+
+- Bloqueante - 
+Cuando se quiere que un proceso no realice tareas hasta que puedan
+comunicarse.
+Por ejemplo, si hay un procesos que toma como input el output del 
+otro, no se quiere que el segundo procesos se ejecute antes que reciba
+los resutlados del otro.
