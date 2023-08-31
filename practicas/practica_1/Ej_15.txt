@@ -1,0 +1,9 @@
+--- Ejercicio 15 ---
+
+El sistema andaría bien pero no se podrían realizar tareas
+que modifiquen simultaneametne un archivo como en memoria compartida.
+Ademas tampoco abría problema con la cola de mensjaes ya que con los pipes
+no tenemos limite. 
+Al agregar memoria compartida podrimaos editar un archivo en "paralelo" pero
+deberíamos tener ciertos cuidados con no modificar la misma proción de 
+memoria al mismo tiempo.
