@@ -1,6 +1,8 @@
 Ej_*
+*.DS_Store
 ejec
 !*.txt
 !*.c
+!*.md
 .vscode
 talleres/taller 2/pipes/Ejercicio1/mini-shell

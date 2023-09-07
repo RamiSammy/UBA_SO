@@ -5,7 +5,7 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
 
 ## Índice
 - Practicas:
-    - [Practica 1](practicas/practica_1/practica1.pdf)
+    - [Practica 1](practicas/practica_1/practica1.pdf): Procesos
         - [Ejercicio 1](practicas/practica_1/Ej_01.txt)
         - [Ejercicio 2](practicas/practica_1/Ej_02.txt)
         - [Ejercicio 3](practicas/practica_1/Ej_03.txt)
@@ -20,10 +20,17 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
         - [Ejercicio 16](practicas/practica_1/Ej_16.txt)
         - [Ejercicio 17](talleres/taller%202/pipes/Ejercicio1/mini-shell)
         - [Ejercicio 18](practicas/practica_1/Ej_18.c)
+    - [Practica 2](practicas/practica_2/practica2.pdf): Scheduling
+        - [Ejercicio 1](practicas/practica_2/ej_01.md)
+        - [Ejercicio 2](practicas/practica_2/ej_02.md)
+        - [Ejercicio 3](practicas/practica_2/ej_03.md)
+        - [Ejercicio 4](practicas/practica_2/ej_04.md)
 
 
 
 - Talleres
     - [Taller 1](talleres/taller%201/enunciado/enunciado.pdf)
         - [Ejercicios](talleres/taller%201/src/)
+    - [Taller 2](talleres/taller%202/enunciado/enunciado.pdf)
+        - [Ejercicios](talleres/taller%202/pipes/)
     
