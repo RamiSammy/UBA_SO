@@ -18,5 +18,6 @@ void system_(const char *arg) {
 }
 
 int main(int argc, char const *argv[]) {
+    system_(argv[1]);
     exit(EXIT_SUCCESS);
 }
