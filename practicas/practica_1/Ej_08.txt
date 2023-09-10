@@ -11,6 +11,7 @@ int main(int argc, char const *argv[]){
         }
     } else {
         for (int i=0; i< 3; i++) {
+            dato++;
             printf("Dato padre: %d\n", dato);
         }
     }
