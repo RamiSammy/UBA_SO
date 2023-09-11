@@ -30,6 +30,7 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
         - [Ejercicio 14](practicas/practica_2/ej_14.md)
     - [Practica 3](practicas/practica_3/práctica%203.pdf): Sincronización entre procesos
         - [Ejercicio 1](practicas/practica_3/ej_01.md)
+        - [Ejercicio 4](practicas/practica_3/ej_04.md)
 
 
 
