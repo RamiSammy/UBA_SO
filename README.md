@@ -34,7 +34,8 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
         - [Ejercicio 4](practicas/practica_3/ej_04.md)
         - [Ejercicio 7](practicas/practica_3/ej_07.md)
         - [Ejercicio 8](practicas/practica_3/ej_08.md)
-        - [Ejercicio 11](practicas/practica_3/ej_11.md): Problema de los prisioneros
+        - [Ejercicio 11](practicas/practica_3/ej_11.md) ~ Problema de los prisioneros
+        - [Ejercicio 13](practicas/practica_3/ej_13.md) ~ Game Pool Party!
 - Talleres
     - [Taller 1](talleres/taller%201/enunciado/enunciado.pdf)
         - [Ejercicios](talleres/taller%201/src/)
