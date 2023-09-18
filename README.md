@@ -38,6 +38,7 @@ Lic. en Ciencias de la Computación - FCEN - UBA\
         - [Ejercicio 13](practicas/practica_3/ej_13.md) ~ Game Pool Party!
         - [Ejercicio 15](practicas/practica_3/ej_15.md) ~ El crucero de Noel
         - [Ejercicio 17](practicas/practica_3/ej_17.md)
+        - [Ejercicio 18](practicas/practica_3/ej_18.md)
 - Talleres
     - [Taller 1](talleres/taller%201/enunciado/enunciado.pdf)
         - [Ejercicios](talleres/taller%201/src/)
